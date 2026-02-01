@@ -1,0 +1,16 @@
+# Force GitHub to detect Java as main language
+*.java linguist-language=Java
+
+# Android XML resources
+*.xml linguist-language=XML
+
+# Gradle files
+*.gradle linguist-language=Gradle
+
+# Ignore generated / build files
+/build/* linguist-generated=true
+**/build/* linguist-generated=true
+
+# Ignore IDE files
+.idea/* linguist-generated=true
+*.iml linguist-generated=true
